@@ -17,6 +17,41 @@
 			"group": "build",
 			"problemMatcher": [],
 			"label": "composer: test"
-		}
+		},
+        {
+            "label": "compose down",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "down": {}
+            }
+        },
+        {
+            "label": "compose up",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "up": {
+                    "detached": true,
+                    "services": ["db", "wp"]
+                }
+            }
+        },
+        {
+            "label": "db admin",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "up": {
+                    "detached": true,
+                    "services": ["db", "dba"]
+                }
+            }
+        },
+        {
+            "label": "open wordpress",
+            "type": "shell",
+            "linux": {
+                "command": "google-chrome",
+                "args": ["http://localhost:80"]
+            }
+        }
 	]
 }
