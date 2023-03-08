@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "composer",
+			"script": "test",
+			"target": "test",
+			"path": "wordpress/html/wp-includes/sodium_compat/",
+			"fileName": "composer.json",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "/home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
+				"external": "file:///home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
+				"path": "/home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
+				"scheme": "file"
+			},
+			"group": "build",
+			"problemMatcher": [],
+			"label": "composer: test"
+		}
+	]
+}
