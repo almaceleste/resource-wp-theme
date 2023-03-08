@@ -1,32 +1,31 @@
 services:
 
-  wordpress:
+  wp:
     image: wordpress
     restart: always
     ports:
       - 80:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: password
     volumes:
-      - wordpress:/var/www/html
+      - ./wordpress/html:/var/www/html
 
   db:
     image: mysql:5.7
     restart: always
     environment:
-      MYSQL_DATABASE: exampledb
-      MYSQL_USER: exampleuser
-      MYSQL_PASSWORD: examplepass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER:     user
+      MYSQL_PASSWORD: password
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
       - db:/var/lib/mysql
 
   dba:
     image: adminer
-    container_name: adminer
     depends_on:
       - db
     ports:
@@ -34,5 +33,4 @@ services:
 
 
 volumes:
-  wordpress:
   db:
