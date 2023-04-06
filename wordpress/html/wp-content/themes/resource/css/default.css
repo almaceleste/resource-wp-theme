@@ -120,6 +120,10 @@ main .wp-block-columns {
 	justify-content: space-evenly;
 }
 
+main .wp-block-columns .wp-block-buttons {
+	display: none;
+}
+
 .wp-element-button {
 	background-color: rgb(168 168 168);
 	border-radius: 9999px;
