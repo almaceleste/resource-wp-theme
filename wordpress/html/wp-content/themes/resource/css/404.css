@@ -11,16 +11,16 @@
 
 body {
     background-color: #333;
-    cursor: none;
+    /* cursor: none; */
 }
 
-main {
+/* main {
     display: grid;
     grid-template: repeat(15, 1fr) / repeat(15, 1fr);
     height: 100vh;
     margin: 0;
     padding: 0;
-}
+} */
 
 .cell {
     border: 0px solid gray;
@@ -29,7 +29,7 @@ main {
     z-index: 2;
 }
 
-.cell:nth-child(15n+1):hover ~ .content {
+/* .cell:nth-child(15n+1):hover ~ .content {
     --positionX: 0;
 }
 
@@ -147,7 +147,7 @@ main {
 
 .cell:nth-child(n+211):nth-child(-n+225):hover ~ .content {
     --positionY: 14;
-}
+} */
 
 .content {
     align-items: center;
@@ -174,13 +174,13 @@ main .overlay {
     top: 0;
 }
 
-main:hover .overlay {
+/* main:hover .overlay {
     --X: calc(var(--positionX) * 100%/15 + 100%/15/2);
     --Y: calc(var(--positionY) * 100%/15 + 100%/15/2);
 
     background: radial-gradient(circle at var(--X) var(--Y), rgb(245, 245, 245, .1) 40px, rgb(51, 51, 51, .9) 70px, #111 80px);
 }
-
+ */
 .plate {
     background: #333;
     height: 100px;
