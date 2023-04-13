@@ -11,5 +11,8 @@
                 }
             ?>
         </div>
+        <nav id="bvi">
+            <?php get_template_part('bvi'); ?>
+        </nav>
     </div>
 </div>
