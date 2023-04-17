@@ -2,14 +2,23 @@
 
     // actions
     add_action( 'after_setup_theme', 'resource_support' );
+    add_action( 'after_setup_theme', 'resource_nav_menus' );
     add_action( 'widgets_init', 'resource_sidebars' );
     add_action( 'wp_enqueue_scripts', 'resource_styles' );
     add_action( 'wp_footer', 'resource_scripts' );
+    add_action( 'after_setup_theme', 'resource_textdomain' );
 
     // filters
     add_filter( 'document_title_separator', 'resource_title_separator' );
 
     // functions
+    function resource_nav_menus() {
+        register_nav_menus( [
+            'header_menu'   => __('Header menu', 'resource'),
+            'footer_menu'   => __('Footer menu', 'resource')
+        ] );
+    }
+
     function resource_scripts() {}
 
     function resource_sidebars() {
@@ -32,6 +41,10 @@
             'header-text' => array( 'site-title', 'site-description' ),
         ) );
         add_theme_support( 'title-tag' );
+    }
+
+    function resource_textdomain() {
+        load_theme_textdomain('resource', get_template_directory() . '/languages');
     }
 
     function resource_title_separator($separator) {
