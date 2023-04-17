@@ -1,0 +1,481 @@
+# Translation of Plugins - AccessibleWP &#8211; Accessibility Toolbar - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - AccessibleWP &#8211; Accessibility Toolbar - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-04 00:17:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - AccessibleWP &#8211; Accessibility Toolbar - Stable (latest release)\n"
+
+#: inc/panel.php:609
+msgid "Disable the use of cookies"
+msgstr "Deaktivieren Sie die Verwendung von Cookies"
+
+#: inc/panel.php:308
+msgid "High Contrast"
+msgstr "Hoher Kontrast"
+
+#: inc/panel.php:197
+msgid "Telegram Channel"
+msgstr "Telegrammkanal"
+
+#: inc/panel.php:196
+msgid "Whatsapp Group"
+msgstr "WhatsApp-Gruppe"
+
+#: inc/panel.php:195
+msgid "Facebook Group"
+msgstr "Facebook-Gruppe"
+
+#: inc/panel.php:193
+msgid "Weֿֿֿ've created communities that allow you to learn, help, and ask questions about our plugins and web accessibility in general."
+msgstr "Wir haben Communitys erstellt, die es Ihnen ermöglichen, sich über unsere Plugins und die Barrierefreiheit im Internet im Allgemeinen zu informieren, zu helfen und Fragen zu stellen."
+
+#: inc/panel.php:192
+msgid "<span>Why struggle alone with accessibility challenges?</span> Join our communities."
+msgstr "<span>Warum allein mit Barrierefreiheitsproblemen kämpfen?</span> Treten Sie unseren Communitys bei."
+
+#: inc/panel.php:656
+msgid "Toolbar color"
+msgstr "Farbe der Symbolleiste"
+
+#: inc/panel.php:649
+msgid "Use custom color for the toolbar?"
+msgstr "Benutzerdefinierte Farbe für die Symbolleiste verwenden?"
+
+#: inc/toolbar.php:111
+msgid "by"
+msgstr "durch"
+
+#: inc/toolbar.php:98
+msgid "Love"
+msgstr "Liebe"
+
+#: inc/toolbar.php:111
+msgid "Powered with"
+msgstr "Angetrieben mit"
+
+#: inc/toolbar.php:69
+msgid "Toggle the visibility of the Accessibility Toolbar"
+msgstr "Schalten Sie die Sichtbarkeit der Eingabehilfen-Symbolleiste um"
+
+#: inc/toolbar.php:51
+msgid "Highlight Links & Buttons"
+msgstr "Markieren Sie Links und Schaltflächen"
+
+#: inc/toolbar.php:41
+msgid "Decrease Text"
+msgstr "Text verkleinern"
+
+#: inc/toolbar.php:40
+msgid "Increase Text"
+msgstr "Text erhöhen"
+
+#: inc/toolbar.php:37
+msgid "Contrast"
+msgstr "Kontrast"
+
+#: inc/toolbar.php:23
+msgid "Accessibility Toolbar Toggle View"
+msgstr "Barrierefreiheit Symbolleiste Ansicht umschalten"
+
+#: inc/toolbar.php:16
+msgid "Toggle Accessibility Toolbar"
+msgstr "Symbolleiste für Barrierefreiheit umschalten"
+
+#: inc/panel.php:840
+msgid "Heading"
+msgstr "Überschrift"
+
+#: inc/panel.php:834
+msgid "AccessibleWP Accessibility Toolbar"
+msgstr "AccessibleWP Accessibility Toolbar"
+
+#: inc/panel.php:814
+msgid "Account Email"
+msgstr "Konto-E-Mail"
+
+#: inc/panel.php:806
+msgid "Token"
+msgstr "Token"
+
+#: inc/panel.php:802
+msgid "You can connect the plugin to the AccessibleWP platform to monitor all your accessibility plugins from all your websites in one place and enjoy additional features alongside with PRO versions to members only, to open an account navigate to <a href=\"https://www.accessible-wp.com\" target=\"_blank\">Accessible-WP.com</a>. This feature is not required in order to activate the component."
+msgstr "Sie können das Plugin mit der AccessibleWP-Plattform verbinden, um alle Ihre Zugänglichkeits-Plugins von all Ihren Websites an einem Ort zu überwachen und neben den PRO-Versionen zusätzliche Funktionen nur für Mitglieder zu nutzen. Um ein Konto zu eröffnen, navigieren Sie zu <a href=\"https://www.accessible-wp.com\" target=\"_blank\">Accessible-WP.com</a>. Diese Funktion ist nicht erforderlich, um die Komponente zu aktivieren."
+
+#: inc/panel.php:801
+msgid "Activate toolbar monitoring service"
+msgstr "Aktivieren Sie den Symbolleisten-Überwachungsdienst"
+
+#: inc/panel.php:791
+msgid "Status"
+msgstr "Status"
+
+#: inc/panel.php:787 inc/panel.php:845
+msgid "Connect"
+msgstr "Verbinden"
+
+#: inc/panel.php:764
+msgid "Change the default label of the sitemap link. Please note that if you change the default label you will not be able to translate it into other languages"
+msgstr "Ändern Sie die Standardbezeichnung des Sitemap-Links. Bitte beachten Sie, dass Sie das Standardlabel nicht in andere Sprachen übersetzen können, wenn Sie es ändern"
+
+#: inc/panel.php:755 inc/panel.php:763 inc/toolbar.php:87
+msgid "Site Map"
+msgstr "Seitenverzeichnis"
+
+#: inc/panel.php:744
+msgid "Change the default label of the feedback link. Please note that if you change the default label you will not be able to translate it into other languages"
+msgstr "Ändern Sie die Standardbezeichnung des Feedback-Links. Bitte beachten Sie, dass Sie das Standardlabel nicht in andere Sprachen übersetzen können, wenn Sie es ändern"
+
+#: inc/panel.php:735 inc/panel.php:743 inc/toolbar.php:93
+msgid "Send Feedback"
+msgstr "Feedback abschicken"
+
+#: inc/panel.php:727 inc/panel.php:749 inc/panel.php:769
+msgid "Link"
+msgstr "Verknüpfung"
+
+#: inc/panel.php:722
+msgid "Change the default label of the statement link. Please note that if you change the default label you will not be able to translate it into other languages"
+msgstr "Ändern Sie die Standardbezeichnung des Anweisungslinks. Bitte beachten Sie, dass Sie das Standardlabel nicht in andere Sprachen übersetzen können, wenn Sie es ändern"
+
+#: inc/panel.php:718 inc/panel.php:740 inc/panel.php:760
+msgid "Label"
+msgstr "Etikett"
+
+#: inc/panel.php:713 inc/panel.php:721 inc/toolbar.php:90
+msgid "Accessibility Statement"
+msgstr "Erklärung zur Barrierefreiheit"
+
+#: inc/panel.php:712 inc/panel.php:842
+msgid "Additional Links"
+msgstr "Zusätzliche Links"
+
+#: inc/panel.php:701
+msgid "Toolbar position from side"
+msgstr "Symbolleistenposition von der Seite"
+
+#: inc/panel.php:695
+msgid "Toolnar position from top"
+msgstr "Symbolleistenposition von oben"
+
+#: inc/panel.php:689
+msgid "Toolbar Position"
+msgstr "Symbolleistenposition"
+
+#: inc/panel.php:682
+msgid "Button position from side"
+msgstr "Knopfposition von der Seite"
+
+#: inc/panel.php:678 inc/panel.php:684 inc/panel.php:697 inc/panel.php:703
+msgid "in pixels"
+msgstr "in Pixel"
+
+#: inc/panel.php:676
+msgid "Button position from top"
+msgstr "Knopfposition von oben"
+
+#: inc/panel.php:670
+msgid "Toggle Button Position"
+msgstr "Position der Umschaltfläche"
+
+#: inc/panel.php:663
+msgid "Disable toolbar animation"
+msgstr "Symbolleistenanimation deaktivieren"
+
+#: inc/panel.php:642
+msgid "Right"
+msgstr "Recht"
+
+#: inc/panel.php:641
+msgid "Left (default)"
+msgstr "Links (Standard)"
+
+#: inc/panel.php:637
+msgid "Toolbar side"
+msgstr "Symbolleistenseite"
+
+#: inc/panel.php:630
+msgid "Columns style"
+msgstr "Spaltenstil"
+
+#: inc/panel.php:629
+msgid "App style (default)"
+msgstr "App-Stil (Standard)"
+
+#: inc/panel.php:625
+msgid "Toolbar style"
+msgstr "Symbolleistenstil"
+
+#: inc/panel.php:620 inc/panel.php:844
+msgid "Style"
+msgstr "Style"
+
+#: inc/panel.php:603
+msgid "Show toolbar also on mobile devices"
+msgstr "Symbolleiste auch auf Mobilgeräten anzeigen"
+
+#: inc/panel.php:597
+msgid "Disable button dragging"
+msgstr "Deaktivieren Sie das Ziehen von Schaltflächen"
+
+#: inc/panel.php:591
+msgid "Hide the icons of the accessibility options"
+msgstr "Blenden Sie die Symbole der Barrierefreiheitsoptionen aus"
+
+#: inc/panel.php:583 inc/panel.php:843
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/panel.php:550
+msgid "Add line under all link components."
+msgstr "Zeile unter allen Linkkomponenten hinzufügen"
+
+#: inc/panel.php:546
+msgid "Underline Links"
+msgstr "Links unterstreichen"
+
+#: inc/panel.php:528
+msgid "Titles Text Color"
+msgstr "Titel Textfarbe"
+
+#: inc/panel.php:522
+msgid "Titles Background Color"
+msgstr "Titel Hintergrundfarbe"
+
+#: inc/panel.php:516
+msgid "Use custom colors?"
+msgstr "Benutzerdefinierte Farben verwenden?"
+
+#: inc/panel.php:499
+msgid "Add custom background color and text color to heading components."
+msgstr "Fügen Sie benutzerdefinierte Hintergrund- und Textfarben zu Überschriftenkomponenten hinzu."
+
+#: inc/panel.php:495 inc/toolbar.php:48
+msgid "Mark Titles"
+msgstr "Titel markieren"
+
+#: inc/panel.php:477
+msgid "Custom Font Family"
+msgstr "Benutzerdefinierte Schriftfamilie"
+
+#: inc/panel.php:471
+msgid "Custom Family"
+msgstr "Benutzerdefinierte Schriftfamilie"
+
+#: inc/panel.php:470
+msgid "Tahoma"
+msgstr "Tahoma"
+
+#: inc/panel.php:469
+msgid "Default (Arial)"
+msgstr "Standard (Arial)"
+
+#: inc/panel.php:465
+msgid "Choose your readable font:"
+msgstr "Wählen Sie Ihre lesbare Schriftart:"
+
+#: inc/panel.php:448
+msgid "Change the font family of all text to readable font."
+msgstr "Ändern Sie die Schriftartfamilie des gesamten Textes in eine lesbare Schriftart."
+
+#: inc/panel.php:444 inc/toolbar.php:45
+msgid "Readable Font"
+msgstr "Readable font"
+
+#: inc/panel.php:426
+msgid "Disable line-height reset when font size is changing?"
+msgstr "Zurücksetzen der Zeilenhöhe bei Änderung der Schriftgröße deaktivieren?"
+
+#: inc/panel.php:413
+msgid "Exclude tags?"
+msgstr "Ausgeschlossene Schlagwörter"
+
+#: inc/panel.php:406 inc/panel.php:419
+msgid "Seperate tags with comma"
+msgstr "Trenne Schlagwörter durch Kommas"
+
+#: inc/panel.php:400
+msgid "Use custom tags?"
+msgstr "Verwenden Sie benutzerdefinierte Tags"
+
+#: inc/panel.php:393
+msgid "By how many percent to <b>decrease</b> the font size?"
+msgstr "Um wie viel Prozent soll die Schriftgröße <b>verkleinert</b> werden?"
+
+#: inc/panel.php:387
+msgid "By how many percent to <b>increase</b> the font size?"
+msgstr "Um wie viel Prozent soll die Schriftgröße <b>erhöht</b> werden?"
+
+#: inc/panel.php:381
+msgid "Allow users to increase or decrease font sizes."
+msgstr "Benutzern erlauben, Schriftgrößen zu vergrößern oder zu verkleinern."
+
+#: inc/panel.php:377
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: inc/panel.php:359
+msgid "Exclude items by setting the item tag name, class or id. Separate items with comma please, For example:"
+msgstr "Schließen Sie Artikel aus, indem Sie den Tag-Namen, die Klasse oder die ID des Artikels festlegen. Trennen Sie die Artikel bitte mit Komma, zum Beispiel:"
+
+#: inc/panel.php:355
+msgid "Exclude items"
+msgstr "Elemente ausschließen"
+
+#: inc/panel.php:349
+msgid "JS"
+msgstr "JS"
+
+#: inc/panel.php:348 inc/panel.php:459 inc/panel.php:510 inc/panel.php:561
+msgid "Hard CSS"
+msgstr "Hartes CSS"
+
+#: inc/panel.php:347 inc/panel.php:458 inc/panel.php:509 inc/panel.php:560
+msgid "Normal CSS (default)"
+msgstr "Normales CSS (Standard)"
+
+#: inc/panel.php:343 inc/panel.php:454 inc/panel.php:505 inc/panel.php:556
+msgid "Mode"
+msgstr "Modus"
+
+#: inc/panel.php:337
+msgid "Links color"
+msgstr "Linkfarbe"
+
+#: inc/panel.php:331
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: inc/panel.php:325
+msgid "Backgrounds color"
+msgstr "Hintergrundfarbe"
+
+#: inc/panel.php:319
+msgid "Use custom colors"
+msgstr "Benutzerdefinierte Farben verwenden?"
+
+#: inc/panel.php:313
+msgid "Disables background images."
+msgstr "Deaktiviert Hintergrundbilder."
+
+#: inc/panel.php:312
+msgid "Changes the colors of backgrounds, texts and links."
+msgstr "Ändert die Farben von Hintergründen, Texten und Links."
+
+#: inc/panel.php:294
+msgid "Disables CSS3 animations."
+msgstr "Deaktiviert CSS3-Animationen."
+
+#: inc/panel.php:290 inc/toolbar.php:34
+msgid "Disable Animations"
+msgstr "Animationen deaktivieren"
+
+#: inc/panel.php:283 inc/panel.php:301 inc/panel.php:370 inc/panel.php:437
+#: inc/panel.php:488 inc/panel.php:539 inc/panel.php:572
+msgid "Hide option"
+msgstr "Option ausblenden"
+
+#: inc/panel.php:272
+msgid "Disable arrows navigation"
+msgstr "Pfeilnavigation deaktivieren"
+
+#: inc/panel.php:265
+msgid "Allow navigation between components using keyboard arrows & TAB."
+msgstr "Navigation zwischen Komponenten mit Tastaturpfeilen und TAB zulassen."
+
+#: inc/panel.php:264
+msgid "Add effect to components in focus mode."
+msgstr "Hinzufügen von Effekten zu Komponenten im Fokusmodus."
+
+#: inc/panel.php:260 inc/toolbar.php:31
+msgid "Keyboard Navigation"
+msgstr "Navigation per Tastatur"
+
+#: inc/panel.php:255 inc/panel.php:841
+msgid "Options"
+msgstr "Optionen"
+
+#: inc/panel.php:245
+msgid "Change the default toolbar title. Please note that if you change the title you will not be able to translate it into other languages"
+msgstr "Ändern Sie den Standardtitel der Symbolleiste. Bitte beachten Sie, dass Sie den Titel nicht in andere Sprachen übersetzen können, wenn Sie ihn ändern"
+
+#: inc/panel.php:244 inc/toolbar.php:68
+msgid "Accessibility Toolbar"
+msgstr "Barrierefreiheit-Werkzeugleiste"
+
+#: inc/panel.php:241
+msgid "Toolbar title"
+msgstr "Titel der Symbolleiste"
+
+#: inc/panel.php:236
+msgid "Toolbar Heading"
+msgstr "Überschrift der Symbolleiste"
+
+#: inc/panel.php:222
+msgid "This link will be open in a new tab"
+msgstr "Dieser Link wird in einem neuen Tab geöffnet"
+
+#: inc/panel.php:222
+msgid "Download the plugin"
+msgstr "Laden Sie das Plugin herunter"
+
+#: inc/panel.php:216
+msgid "Not active"
+msgstr "Nicht aktiv"
+
+#: inc/panel.php:216
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/panel.php:188
+msgid "Send feedback"
+msgstr "Feedback senden"
+
+#: inc/panel.php:187
+msgid "W3C accessibility standards overview"
+msgstr "Übersicht der W3C-Zugänglichkeitsstandards"
+
+#: inc/panel.php:186
+msgid "About the author"
+msgstr "Über den Autor"
+
+#: inc/panel.php:185
+msgid "Who we are?"
+msgstr "Wer wir sind?"
+
+#: inc/panel.php:183
+msgid "Accessibility solutions for websites based on the WordPress."
+msgstr "Accessibility-Lösungen für Websites auf Basis von WordPress."
+
+#: inc/panel.php:182
+msgid "Welcome to <span>AccessibleWP</span> Dashboard!"
+msgstr "Willkommen beim <span>AccessibleWP</span>-Dashboard!"
+
+#: inc/panel.php:85
+msgid "AccessibleWP"
+msgstr "AccessibleWP"
+
+#. Author URI of the plugin
+msgid "https://www.codenroll.co.il/"
+msgstr "https://www.codenroll.co.il/"
+
+#. Author of the plugin
+msgid "Codenroll"
+msgstr "Codenroll"
+
+#. Description of the plugin
+msgid "Add an accessibility toolbar to your WordPress site and make it easier for users with disabilities."
+msgstr "Fügen Sie Ihrer WordPress-Site eine Symbolleiste für Barrierefreiheit hinzu und machen Sie es Benutzern mit Behinderungen einfacher."
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/accessible-poetry/"
+msgstr "https://wordpress.org/plugins/accessible-poetry/"
+
+#. Plugin Name of the plugin
+msgid "AccessibleWP - Accessibility Toolbar"
+msgstr "AccessibleWP - Symbolleiste für Barrierefreiheit"
