@@ -9,7 +9,7 @@
     </header>
 
     <main>
-        <h1 class="alignwide has-text-align-center">Пространство свободы, поддержки и понимания</h1>
+        <h1 class="alignwide has-text-align-center"><?php _e('Space of freedom, support and understanding', 'resource') ?></h1>
 
         <div class="wp-block-columns alignwide resources">
             <div class="wp-block-column">
