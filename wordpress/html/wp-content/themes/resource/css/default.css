@@ -124,6 +124,14 @@ main .wp-block-columns .wp-block-buttons {
 	display: none;
 }
 
+.menu li {
+	list-style: none;
+}
+
+.menu .sub-menu {
+	padding-inline-start: 0;
+}
+
 .wp-element-button {
 	background-color: rgb(168 168 168);
 	border-radius: 9999px;
