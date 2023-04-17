@@ -33,9 +33,6 @@ msgstr ""
 msgid "Header menu"
 msgstr ""
 
-msgid "http://localhost/wp-content/uploads/2023/04/res-en.png"
-msgstr "http://localhost/wp-content/uploads/2023/04/res-ru.png"
-
 #. Author URI of the theme
 msgid "https://almaceleste.github.io"
 msgstr ""
