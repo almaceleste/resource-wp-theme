@@ -20,7 +20,7 @@ header .header-nav-block {
 }
 
 header .wp-block-cover {
-	background-image: url('/wp-content/uploads/2023/03/site-back.jpg');
+	background-image: url('/wp-content/themes/resource/images/site-back.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 150px;
