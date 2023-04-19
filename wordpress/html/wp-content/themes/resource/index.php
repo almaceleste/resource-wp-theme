@@ -14,7 +14,7 @@
         <div class="wp-block-columns alignwide resources">
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="http://localhost/wp-content/uploads/2023/03/groupp1-300x300.png" alt="" class="wp-image-15"/>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/group1.png', 'resource') ?>" alt="<?php _e('Support groups', 'resource') ?>">
                 </figure>
                 <h4 class="has-text-align-center">Группы поддержки</h4>
                 <p class="has-text-align-center">Для представителей ЛГБТК+ сообщества проводятся регулярные группы психологической поддержки как в очном формате, так и онлайн</p>
@@ -26,7 +26,7 @@
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="http://localhost/wp-content/uploads/2023/03/group2-1-300x300.png" alt="" class="wp-image-21"/>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/group2.png', 'resource') ?>" alt="<?php _e('Expert advice', 'resource') ?>">
                 </figure>
                 <h4 class="has-text-align-center">Консультации специалистов</h4>
                 <p class="has-text-align-center">Психологические консультации, юридические консультации по всем правовым вопросам и коучинг для ЛГБТК+ и их близких (очные и онлайн)</p>
@@ -38,7 +38,7 @@
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="http://localhost/wp-content/uploads/2023/03/club-300x300.png" alt="" class="wp-image-19"/>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/club.png', 'resource') ?>" alt="<?php _e('Interest clubs', 'resource') ?>">
                 </figure>
                 <h4 class="has-text-align-center">Клубы по интересам</h4>
                 <p class="has-text-align-center">Мероприятия, обучающие курсы и регулярные тематические встречи по инициативе представителей сообщества (очные и онлайн)</p>
@@ -50,7 +50,7 @@
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="http://localhost/wp-content/uploads/2023/03/group3-300x300.png" alt="" class="wp-image-20"/>
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/group3.png', 'resource') ?>" alt="<?php _e('For specialists', 'resource') ?>">
                 </figure>
                 <h4 class="has-text-align-center">Специалистам</h4>
                 <p class="has-text-align-center">Супервизия, интервизорские группы, обучающие семинары и курсы для психологов и помогающих специалистов, работающих с ЛГБТК+ сообществом (очные и онлайн)</p>
