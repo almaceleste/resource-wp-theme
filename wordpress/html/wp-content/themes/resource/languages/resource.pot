@@ -65,7 +65,7 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#  Expert advice
+#  Specialist consultations
 #: index.php:29 index.php:31
 msgid "group2_name"
 msgstr ""

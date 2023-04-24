@@ -49,10 +49,10 @@ msgstr ""
 "Psychological consultations, legal consultations on all legal issues and "
 "coaching for LGBTQ+ and their loved ones (in-person and online)"
 
-# Expert advice
+# Specialist consultations
 #: index.php:29 index.php:31
 msgid "group2_name"
-msgstr "Expert advice"
+msgstr "Specialist consultations"
 
 # Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
 #: index.php:44

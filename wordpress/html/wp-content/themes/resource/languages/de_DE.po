@@ -45,7 +45,7 @@ msgstr ""
 msgid "group2_description"
 msgstr ""
 
-# Expert advice
+# Specialist consultations
 #: index.php:29 index.php:31
 msgid "group2_name"
 msgstr ""

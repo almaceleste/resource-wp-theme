@@ -50,7 +50,7 @@ msgstr ""
 "Психологические консультации, юридические консультации по всем правовым "
 "вопросам и коучинг для ЛГБТК+ и их близких (очные и онлайн)"
 
-# Expert advice
+# Specialist consultations
 #: index.php:29 index.php:31
 msgid "group2_name"
 msgstr "Консультации специалистов"
