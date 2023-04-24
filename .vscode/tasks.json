@@ -52,6 +52,14 @@
                 "command": "google-chrome",
                 "args": ["http://localhost:80"]
             }
+        },
+        {
+            "label": "rm lang backups",
+            "type": "shell",
+            "linux": {
+                "command": "rm",
+                "args": ["${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/*-backup-*"]
+            }
         }
 	]
 }
