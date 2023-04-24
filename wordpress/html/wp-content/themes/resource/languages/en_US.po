@@ -5,13 +5,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-16 13:43+0000\n"
-"PO-Revision-Date: 2023-04-24 13:36+0000\n"
-"Last-Translator: \n"
-"Language-Team: Russian\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"POT-Creation-Date: 2023-04-21 05:48+0000\n"
+"PO-Revision-Date: 2023-04-24 13:34+0000\n"
+"Last-Translator: alma\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +20,7 @@ msgstr ""
 
 #: header.php:18
 msgid "/images/logo.png"
-msgstr "/images/logo-ru.png"
+msgstr "/images/logo-en.png"
 
 #. Author of the theme
 msgid "almaceleste"
@@ -35,49 +34,50 @@ msgstr ""
 #: index.php:20
 msgid "group1_description"
 msgstr ""
-"Для представителей ЛГБТК+ сообщества проводятся регулярные группы "
-"психологической поддержки как в очном формате, так и онлайн"
+"For representatives of the LGBTQ+ community, regular psychological support "
+"groups are held both in person and online"
 
 # Support groups
 #: index.php:17 index.php:19
 msgid "group1_name"
-msgstr "Группы поддержки"
+msgstr "Support groups"
 
 # Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (face-to-face and online)
 #: index.php:32
 msgid "group2_description"
 msgstr ""
-"Психологические консультации, юридические консультации по всем правовым "
-"вопросам и коучинг для ЛГБТК+ и их близких (очные и онлайн)"
+"Psychological consultations, legal consultations on all legal issues and "
+"coaching for LGBTQ+ and their loved ones (face-to-face and online)"
 
 # Expert advice
 #: index.php:29 index.php:31
 msgid "group2_name"
-msgstr "Консультации специалистов"
+msgstr "Expert advice"
 
 # Events, training courses and regular thematic meetings initiated by community representatives (face-to-face and online)
 #: index.php:44
 msgid "group3_description"
 msgstr ""
-"Мероприятия, обучающие курсы и регулярные тематические встречи по инициативе "
-"представителей сообщества (очные и онлайн)"
+"Events, training courses and regular thematic meetings initiated by "
+"community representatives (face-to-face and online)"
 
 # Interest clubs
 #: index.php:41 index.php:43
 msgid "group3_name"
-msgstr "Клубы по интересам"
+msgstr "Interest clubs"
 
 # Supervision, intervisor groups, training seminars and courses for psychologists and helping professionals working with the LGBTQ+ community (in-person and online)
 #: index.php:56
 msgid "group4_description"
 msgstr ""
-"Супервизия, интервизорские группы, обучающие семинары и курсы для психологов "
-"и помогающих специалистов, работающих с ЛГБТК+ сообществом (очные и онлайн)"
+"Supervision, intervisor groups, training seminars and courses for "
+"psychologists and helping professionals working with the LGBTQ+ community "
+"(in-person and online)"
 
 # For specialists
 #: index.php:53 index.php:55
 msgid "group4_name"
-msgstr "Специалистам"
+msgstr "For specialists"
 
 #: functions.php:32
 msgid "Header menu"
@@ -86,7 +86,7 @@ msgstr ""
 # Space of freedom, support and understanding
 #: index.php:12
 msgid "Home_heading"
-msgstr "Пространство свободы, поддержки и понимания"
+msgstr "Space of freedom, support and understanding"
 
 #. Author URI of the theme
 msgid "https://almaceleste.github.io"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: index.php:23 index.php:35 index.php:47 index.php:59
 msgid "Read more"
-msgstr "Подробнее"
+msgstr ""
 
 #. Name of the theme
 msgid "Resource"

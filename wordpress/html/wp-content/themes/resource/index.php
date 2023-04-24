@@ -9,54 +9,54 @@
     </header>
 
     <main>
-        <h1 class="alignwide has-text-align-center"><?php _e('Space of freedom, support and understanding', 'resource') ?></h1>
+        <h1 class="alignwide has-text-align-center"><?php _e('Home_heading', 'resource') ?></h1>
 
         <div class="wp-block-columns alignwide resources">
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group1.png" alt="<?php _e('Support groups', 'resource') ?>">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group1.png" alt="<?php _e('group1_name', 'resource') ?>">
                 </figure>
-                <h4 class="has-text-align-center"><?php _e('Support groups', 'resource') ?></h4>
-                <p class="has-text-align-center">Для представителей ЛГБТК+ сообщества проводятся регулярные группы психологической поддержки как в очном формате, так и онлайн</p>
+                <h4 class="has-text-align-center"><?php _e('group1_name', 'resource') ?></h4>
+                <p class="has-text-align-center"><?php _e('group1_description', 'resource') ?></p>
                 <div class="wp-block-buttons">
                     <div class="wp-block-button">
-                        <a class="wp-block-button__link wp-element-button">Подробнее</a>
+                        <a class="wp-block-button__link wp-element-button"><?php _e('Read more', 'resource') ?></a>
                     </div>
                 </div>
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group2.png" alt="<?php _e('Expert advice', 'resource') ?>">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group2.png" alt="<?php _e('group2_name', 'resource') ?>">
                 </figure>
-                <h4 class="has-text-align-center"><?php _e('Expert advice', 'resource') ?></h4>
-                <p class="has-text-align-center">Психологические консультации, юридические консультации по всем правовым вопросам и коучинг для ЛГБТК+ и их близких (очные и онлайн)</p>
+                <h4 class="has-text-align-center"><?php _e('group2_name', 'resource') ?></h4>
+                <p class="has-text-align-center"><?php _e('group2_description', 'resource') ?></p>
                 <div class="wp-block-buttons">
                     <div class="wp-block-button">
-                        <a class="wp-block-button__link wp-element-button">Подробнее</a>
+                        <a class="wp-block-button__link wp-element-button"><?php _e('Read more', 'resource') ?></a>
                     </div>
                 </div>
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/club.png" alt="<?php _e('Interest clubs', 'resource') ?>">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/club.png" alt="<?php _e('group3_name', 'resource') ?>">
                 </figure>
-                <h4 class="has-text-align-center"><?php _e('Interest clubs', 'resource') ?></h4>
-                <p class="has-text-align-center">Мероприятия, обучающие курсы и регулярные тематические встречи по инициативе представителей сообщества (очные и онлайн)</p>
+                <h4 class="has-text-align-center"><?php _e('group3_name', 'resource') ?></h4>
+                <p class="has-text-align-center"><?php _e('group3_description', 'resource') ?></p>
                 <div class="wp-block-buttons">
                     <div class="wp-block-button">
-                        <a class="wp-block-button__link wp-element-button">Подробнее</a>
+                        <a class="wp-block-button__link wp-element-button"><?php _e('Read more', 'resource') ?></a>
                     </div>
                 </div>
             </div>
             <div class="wp-block-column">
                 <figure class="wp-block-image aligncenter size-medium">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group3.png" alt="<?php _e('For specialists', 'resource') ?>">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/group3.png" alt="<?php _e('group4_name', 'resource') ?>">
                 </figure>
-                <h4 class="has-text-align-center"><?php _e('For specialists', 'resource') ?></h4>
-                <p class="has-text-align-center">Супервизия, интервизорские группы, обучающие семинары и курсы для психологов и помогающих специалистов, работающих с ЛГБТК+ сообществом (очные и онлайн)</p>
+                <h4 class="has-text-align-center"><?php _e('group4_name', 'resource') ?></h4>
+                <p class="has-text-align-center"><?php _e('group4_description', 'resource') ?></p>
                 <div class="wp-block-buttons">
                     <div class="wp-block-button">
-                        <a class="wp-block-button__link wp-element-button">Подробнее</a>
+                        <a class="wp-block-button__link wp-element-button"><?php _e('Read more', 'resource') ?></a>
                     </div>
                 </div>
             </div>

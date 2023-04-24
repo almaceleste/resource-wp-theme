@@ -1,17 +1,16 @@
 # Copyleft 🄯 2023 almaceleste
 # This file is distributed under the GNU General Public License v3 or later.
 # This file is a part of the Resource theme for the Resource website
-
 msgid ""
 msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-16 13:43+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: almaceleste <almaceleste.github.io>\n"
-"Language-Team: almaceleste <almaceleste.github.io>\n"
+"POT-Creation-Date: 2023-04-21 05:48+0000\n"
+"PO-Revision-Date: 2023-04-24 09:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "Language: de_DE\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,22 +26,47 @@ msgstr ""
 msgid "https://almaceleste.github.io"
 msgstr ""
 
-#. Description of the theme
-msgid "Initial theme for the Resource website"
-msgstr ""
-
 #. Name of the theme
 msgid "Resource"
 msgstr ""
 
-#: functions.php:17
-msgid "Footer menu"
+#. Description of the theme
+msgid "Initial theme for the Resource website"
 msgstr ""
 
-#: functions.php:16
+#: functions.php:17
 msgid "Header menu"
 msgstr ""
 
+#: functions.php:18
+msgid "Footer menu"
+msgstr ""
+
+#: header.php:18
+msgid "/images/logo.png"
+msgstr ""
+
+# Space of freedom, support and understanding
 #: index.php:12
-msgid "Space of freedom, support and understanding"
+msgid "Home_heading"
 msgstr "Raum der Freiheit, Unterstützung und Einsicht"
+
+# Support groups
+#: index.php:17 index.php:19
+msgid "group1_name"
+msgstr ""
+
+# Expert advice
+#: index.php:29 index.php:31
+msgid "group2_name"
+msgstr ""
+
+# Interest clubs
+#: index.php:41 index.php:43
+msgid "group3_name"
+msgstr ""
+
+# For specialists
+#: index.php:53 index.php:55
+msgid "group4_name"
+msgstr ""
