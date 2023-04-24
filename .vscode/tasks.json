@@ -1,23 +1,6 @@
 {
 	"version": "2.0.0",
 	"tasks": [
-		{
-			"type": "composer",
-			"script": "test",
-			"target": "test",
-			"path": "wordpress/html/wp-includes/sodium_compat/",
-			"fileName": "composer.json",
-			"uri": {
-				"$mid": 1,
-				"fsPath": "/home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
-				"external": "file:///home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
-				"path": "/home/alma/repo/wp-res/wordpress/html/wp-includes/sodium_compat/composer.json",
-				"scheme": "file"
-			},
-			"group": "build",
-			"problemMatcher": [],
-			"label": "composer: test"
-		},
         {
             "label": "compose down",
             "type": "docker-compose",
@@ -46,19 +29,33 @@
             }
         },
         {
+            "label": "l10n: rm lang backups",
+            "type": "shell",
+            "linux": {
+                "command": "rm",
+                "args": ["*-backup-*"],
+                "options": {
+                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                }
+            }
+        },
+        {
+            "label": "l10n: generate .mo files",
+            "type": "shell",
+            "linux": {
+                "command": "for file in ./*.po; do msgfmt $file -o ${file/.po/.mo}; done",
+                "args": [],
+                "options": {
+                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                }
+            }
+        },
+        {
             "label": "open wordpress",
             "type": "shell",
             "linux": {
                 "command": "google-chrome",
                 "args": ["http://localhost:80"]
-            }
-        },
-        {
-            "label": "rm lang backups",
-            "type": "shell",
-            "linux": {
-                "command": "rm",
-                "args": ["${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/*-backup-*"]
             }
         }
 	]
