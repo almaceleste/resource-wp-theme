@@ -10,8 +10,23 @@
 
     // filters
     add_filter( 'document_title_separator', 'resource_title_separator' );
+    add_filter( 'gettext', 'resource_gettext', 10, 3);
 
     // functions
+    function resource_gettext($translation, $text, $domain) {
+        // global $locale;
+        $locale = determine_locale();
+        if ($locale != 'en_US') {
+            if ($translation == '' or $translation == $text) {
+                $mo = new MO;
+                $mofile = get_template_directory().'/languages/en_US.mo';
+                $mo->import_from_file( $mofile );
+                $translation = $mo->translate($text);
+            }
+        }
+        return $translation;
+    }
+
     function resource_nav_menus() {
         register_nav_menus( [
             'header_menu'   => __('Header menu', 'resource'),
