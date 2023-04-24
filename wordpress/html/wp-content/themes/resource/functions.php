@@ -10,10 +10,10 @@
 
     // filters
     add_filter( 'document_title_separator', 'resource_title_separator' );
-    add_filter( 'gettext', 'resource_gettext', 10, 3);
+    add_filter( 'gettext', 'resource_locale_fallback', 10, 3);
 
     // functions
-    function resource_gettext($translation, $text, $domain) {
+    function resource_locale_fallback($translation, $text, $domain) {
         // global $locale;
         $locale = determine_locale();
         if ($locale != 'en_US') {
