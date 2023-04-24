@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-21 05:48+0000\n"
-"PO-Revision-Date: 2023-04-24 09:40+0000\n"
+"PO-Revision-Date: 2023-04-24 14:48+0000\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -18,42 +18,31 @@ msgstr ""
 "X-Loco-Version: 2.6.4; wp-6.2\n"
 "X-Domain: resource"
 
-#. Author of the theme
-msgid "almaceleste"
-msgstr ""
-
-#. Author URI of the theme
-msgid "https://almaceleste.github.io"
-msgstr ""
-
-#. Name of the theme
-msgid "Resource"
-msgstr ""
-
-#. Description of the theme
-msgid "Initial theme for the Resource website"
-msgstr ""
-
-#: functions.php:17
-msgid "Header menu"
-msgstr ""
-
-#: functions.php:18
-msgid "Footer menu"
-msgstr ""
-
 #: header.php:18
 msgid "/images/logo.png"
 msgstr ""
 
-# Space of freedom, support and understanding
-#: index.php:12
-msgid "Home_heading"
-msgstr "Raum der Freiheit, Unterstützung und Einsicht"
+#. Author of the theme
+msgid "almaceleste"
+msgstr ""
+
+#: functions.php:33
+msgid "Footer menu"
+msgstr ""
+
+# For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
+#: index.php:20
+msgid "group1_description"
+msgstr ""
 
 # Support groups
 #: index.php:17 index.php:19
 msgid "group1_name"
+msgstr ""
+
+# Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
+#: index.php:32
+msgid "group2_description"
 msgstr ""
 
 # Expert advice
@@ -61,12 +50,47 @@ msgstr ""
 msgid "group2_name"
 msgstr ""
 
+# Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
+#: index.php:44
+msgid "group3_description"
+msgstr ""
+
 # Interest clubs
 #: index.php:41 index.php:43
 msgid "group3_name"
 msgstr ""
 
+# Supervision, intervisor groups, training seminars and courses for psychologists and helping professionals working with the LGBTQ+ community (in-person and online)
+#: index.php:56
+msgid "group4_description"
+msgstr ""
+
 # For specialists
 #: index.php:53 index.php:55
 msgid "group4_name"
+msgstr ""
+
+#: functions.php:32
+msgid "Header menu"
+msgstr ""
+
+# Space of freedom, support and understanding
+#: index.php:12
+msgid "Home_heading"
+msgstr "Raum der Freiheit, Unterstützung und Einsicht"
+
+#. Author URI of the theme
+msgid "https://almaceleste.github.io"
+msgstr ""
+
+#. Description of the theme
+msgid "Initial theme for the Resource website"
+msgstr ""
+
+#: index.php:23 index.php:35 index.php:47 index.php:59
+msgid "Read more"
+msgstr ""
+
+#. Name of the theme
+msgid "Resource"
 msgstr ""

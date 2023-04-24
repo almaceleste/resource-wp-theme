@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-16 13:43+0000\n"
-"PO-Revision-Date: 2023-04-24 13:36+0000\n"
+"PO-Revision-Date: 2023-04-24 14:49+0000\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -31,7 +31,7 @@ msgstr ""
 msgid "Footer menu"
 msgstr ""
 
-# For representatives of the LGBTQ+ community, regular psychological support groups are held both in person and online
+# For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
 #: index.php:20
 msgid "group1_description"
 msgstr ""
@@ -43,7 +43,7 @@ msgstr ""
 msgid "group1_name"
 msgstr "Группы поддержки"
 
-# Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (face-to-face and online)
+# Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
 #: index.php:32
 msgid "group2_description"
 msgstr ""
@@ -55,7 +55,7 @@ msgstr ""
 msgid "group2_name"
 msgstr "Консультации специалистов"
 
-# Events, training courses and regular thematic meetings initiated by community representatives (face-to-face and online)
+# Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
 #: index.php:44
 msgid "group3_description"
 msgstr ""

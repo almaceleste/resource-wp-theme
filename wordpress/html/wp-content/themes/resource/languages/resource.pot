@@ -56,7 +56,7 @@ msgstr ""
 msgid "group1_name"
 msgstr ""
 
-#  For representatives of the LGBTQ+ community, regular psychological support groups are held both in person and online
+#  For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
 #: index.php:20
 msgid "group1_description"
 msgstr ""
@@ -70,7 +70,7 @@ msgstr ""
 msgid "group2_name"
 msgstr ""
 
-#  Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (face-to-face and online)
+#  Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
 #: index.php:32
 msgid "group2_description"
 msgstr ""
@@ -80,7 +80,7 @@ msgstr ""
 msgid "group3_name"
 msgstr ""
 
-#  Events, training courses and regular thematic meetings initiated by community representatives (face-to-face and online)
+#  Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
 #: index.php:44
 msgid "group3_description"
 msgstr ""

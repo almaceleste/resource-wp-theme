@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-21 05:48+0000\n"
-"PO-Revision-Date: 2023-04-24 13:34+0000\n"
+"PO-Revision-Date: 2023-04-24 14:47+0000\n"
 "Last-Translator: alma\n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -30,36 +30,36 @@ msgstr ""
 msgid "Footer menu"
 msgstr ""
 
-# For representatives of the LGBTQ+ community, regular psychological support groups are held both in person and online
+# For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
 #: index.php:20
 msgid "group1_description"
 msgstr ""
 "For representatives of the LGBTQ+ community, regular psychological support "
-"groups are held both in person and online"
+"groups are held both in-person and online"
 
 # Support groups
 #: index.php:17 index.php:19
 msgid "group1_name"
 msgstr "Support groups"
 
-# Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (face-to-face and online)
+# Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
 #: index.php:32
 msgid "group2_description"
 msgstr ""
 "Psychological consultations, legal consultations on all legal issues and "
-"coaching for LGBTQ+ and their loved ones (face-to-face and online)"
+"coaching for LGBTQ+ and their loved ones (in-person and online)"
 
 # Expert advice
 #: index.php:29 index.php:31
 msgid "group2_name"
 msgstr "Expert advice"
 
-# Events, training courses and regular thematic meetings initiated by community representatives (face-to-face and online)
+# Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
 #: index.php:44
 msgid "group3_description"
 msgstr ""
 "Events, training courses and regular thematic meetings initiated by "
-"community representatives (face-to-face and online)"
+"community representatives (in-person and online)"
 
 # Interest clubs
 #: index.php:41 index.php:43
