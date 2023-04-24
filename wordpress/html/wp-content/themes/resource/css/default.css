@@ -91,7 +91,8 @@ main > h1 {
 }
 
 main .wp-block-column {
-	max-width: 20%;
+	max-width: 20rem;
+	min-width: 205px;
 	position: relative;
 }
 
@@ -117,7 +118,11 @@ main .wp-block-column .wp-element-button {
 }
 
 main .wp-block-columns {
+	column-gap: 3rem;
+    flex-wrap: wrap !important;
 	justify-content: space-evenly;
+    margin: auto;
+	max-width: 75%;
 }
 
 main .wp-block-columns .wp-block-buttons {
