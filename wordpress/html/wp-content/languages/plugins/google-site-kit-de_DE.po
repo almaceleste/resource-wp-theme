@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-02-24 05:03:36+0000\n"
+"PO-Revision-Date: 2023-04-24 15:55:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,26 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.4\n"
 "Language: de\n"
 "Project-Id-Version: Plugins - Site Kit by Google &#8211; Analytics, Search Console, AdSense, Speed - Stable (latest release)\n"
+
+#: includes/Core/Modules/REST_Modules_Controller.php:501
+msgid "Module does not support setting data available state."
+msgstr "Das Modul unterstützt keine Festlegung des Zustands der Datenverfügbarkeit"
+
+#: includes/Modules/Analytics_4.php:1140
+msgid "No connected Google Analytics 4 property ID."
+msgstr "Keine Property-ID von Google Analytics 4 verbunden."
+
+#: includes/Core/Key_Metrics/REST_Key_Metrics_Controller.php:117
+msgid "No more than 4 key metrics can be selected."
+msgstr "Es können maximal 4 wichtige Messwerte ausgewählt werden."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:158
+msgid "Whether the module is recoverable."
+msgstr "Ob das Modul wiederherstellbar ist."
+
+#: includes/Core/Modules/REST_Modules_Controller.php:154
+msgid "Whether the module is shareable."
+msgstr "Ob der Zugriff auf das Modul geteilt werden kann."
 
 #: includes/Modules/Analytics_4.php:753
 msgctxt "Service name"
@@ -51,6 +71,11 @@ msgstr "Modul muss für Datenanfrage aktiv sein."
 #: includes/Core/Authentication/Authentication.php:1450
 msgid "<a href=\"%1$s\">Please try again</a>. Retry didn’t work? <a href=\"%2$s\" target=\"_blank\">Get help</a>."
 msgstr "<a href=\"%1$s\">Versuche es noch einmal</a>. Erneuter Versuch funktioniert nicht? <a href=\"%2$s\" target=\"_blank\">Hilfe</a>."
+
+#. translators: %s: version number
+#: google-site-kit.php:57
+msgid "Site Kit requires WordPress version %s or higher"
+msgstr "Site Kit benötigt WordPress ab Version %s"
 
 #. translators: %s: version number
 #: google-site-kit.php:49
