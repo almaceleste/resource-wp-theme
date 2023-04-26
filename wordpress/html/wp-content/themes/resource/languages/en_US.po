@@ -6,8 +6,8 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-21 05:48+0000\n"
-"PO-Revision-Date: 2023-04-24 14:47+0000\n"
-"Last-Translator: alma\n"
+"PO-Revision-Date: 2023-04-26 09:39+0000\n"
+"Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -29,6 +29,14 @@ msgstr ""
 #: functions.php:33
 msgid "Footer menu"
 msgstr ""
+
+# Center for socio-psychological and cultural projects
+# «Resource LGBTQIA Moscow» © 2023
+#: footer.php:12
+msgid "Footer_heading"
+msgstr ""
+"Center for socio-psychological and cultural projects\n"
+"«Resource LGBTQIA Moscow» © 2023"
 
 # For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
 #: index.php:20

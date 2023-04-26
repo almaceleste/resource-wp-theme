@@ -34,6 +34,12 @@ msgstr ""
 msgid "Initial theme for the Resource website"
 msgstr ""
 
+# Center for socio-psychological and cultural projects
+# «Resource LGBTQIA Moscow» © 2023
+#: footer.php:12
+msgid "Footer_heading"
+msgstr ""
+
 #: functions.php:32
 msgid "Header menu"
 msgstr ""
