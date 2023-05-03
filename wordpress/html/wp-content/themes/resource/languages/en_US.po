@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-21 05:48+0000\n"
-"PO-Revision-Date: 2023-05-03 12:47+0000\n"
+"PO-Revision-Date: 2023-05-03 13:16+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -18,16 +18,14 @@ msgstr ""
 "X-Loco-Version: 2.6.4; wp-6.2\n"
 "X-Domain: resource"
 
-#: footer.php:10 header.php:13
+#: footer.php:9 header.php:13
 msgid "/images/logo.png"
 msgstr "/images/logo-en.png"
 
-#. dummy-string. You don't have to translated it.
 #: index.php:22
 msgid "_description"
 msgstr ""
 
-#. dummy-string. You don't have to translated it.
 #: index.php:19 index.php:21
 msgid "_name"
 msgstr ""
@@ -42,7 +40,7 @@ msgstr ""
 
 # Center for socio-psychological and cultural projects
 # «Resource LGBTQIA Moscow» © 2023
-#: footer.php:13
+#: footer.php:12
 msgid "Footer_heading"
 msgstr ""
 "Center for socio-psychological and cultural projects\n"
@@ -114,7 +112,7 @@ msgstr ""
 msgid "Initial theme for the Resource website"
 msgstr ""
 
-#: header.php:13
+#: footer.php:9 header.php:13
 msgid "logo_alt_text"
 msgstr "Resource LGBTQIA+"
 
@@ -125,3 +123,8 @@ msgstr ""
 #. Name of the theme
 msgid "Resource"
 msgstr ""
+
+#. site root url. Usually this is '/' but it can be different in other language, for example, '/ru' for russian or '/de' for german.
+#: header.php:12
+msgid "root_url"
+msgstr "/"
