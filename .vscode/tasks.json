@@ -35,7 +35,7 @@
                 "command": "rm",
                 "args": ["*-backup-*"],
                 "options": {
-                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                    "cwd": "${workspaceFolder}/resource/languages/"
                 }
             }
         },
@@ -46,7 +46,7 @@
                 "command": "for file in ./*.po; do msgfmt $file -o ${file/.po/.mo}; done",
                 "args": [],
                 "options": {
-                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                    "cwd": "${workspaceFolder}/resource/languages/"
                 }
             }
         },
