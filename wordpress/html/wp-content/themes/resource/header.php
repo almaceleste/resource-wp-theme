@@ -10,7 +10,7 @@
         </div>
         <div class="wp-block-site-logo">
             <a href="http://localhost/" class="custom-logo-link" rel="home" aria-current="page">
-                <img width="200" height="200" src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/logo.png', 'resource') ?>" class="custom-logo" alt="Resource LGBTQIA+">
+                <img width="200" height="200" src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/logo.png', 'resource') ?>" class="custom-logo" alt="<?php _e('logo_alt_text', 'resource') ?>">
 
             </a>
         </div>
