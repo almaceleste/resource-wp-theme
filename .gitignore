@@ -34,6 +34,9 @@ wp-config.php
 # Example plugin
 /wordpress/html/wp-content/plugins/hello.php
 
+# Upgrade
+/wordpress/html/wp-content/upgrade/
+
 # Uploads
 /wordpress/html/wp-content/uploads/
 
