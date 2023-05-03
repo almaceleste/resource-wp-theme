@@ -53,4 +53,4 @@ wp-config.php
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
-/wordpress/html/wp-content/themes
+# /wordpress/html/wp-content/themes
