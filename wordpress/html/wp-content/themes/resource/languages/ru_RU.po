@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: Resource\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-16 13:43+0000\n"
-"PO-Revision-Date: 2023-04-26 09:49+0000\n"
+"PO-Revision-Date: 2023-05-03 12:46+0000\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -19,9 +19,19 @@ msgstr ""
 "X-Loco-Version: 2.6.4; wp-6.2\n"
 "X-Domain: resource"
 
-#: header.php:18
+#: footer.php:10 header.php:13
 msgid "/images/logo.png"
 msgstr "/images/logo-ru.png"
+
+#. dummy-string. You don't have to translated it.
+#: index.php:22
+msgid "_description"
+msgstr ""
+
+#. dummy-string. You don't have to translated it.
+#: index.php:19 index.php:21
+msgid "_name"
+msgstr ""
 
 #. Author of the theme
 msgid "almaceleste"
@@ -33,57 +43,57 @@ msgstr ""
 
 # Center for socio-psychological and cultural projects
 # «Resource LGBTQIA Moscow» © 2023
-#: footer.php:12
+#: footer.php:13
 msgid "Footer_heading"
 msgstr ""
 "Центр социально-психологических и культурных проектов\n"
 "«Ресурс ЛГБТКИА Москва» © 2023"
 
 # For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
-#: index.php:20
+#: dummy-stings.php:2
 msgid "group1_description"
 msgstr ""
 "Для представителей ЛГБТК+ сообщества проводятся регулярные группы "
 "психологической поддержки как в очном формате, так и онлайн"
 
 # Support groups
-#: index.php:17 index.php:19
+#: dummy-stings.php:3
 msgid "group1_name"
 msgstr "Группы поддержки"
 
 # Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
-#: index.php:32
+#: dummy-stings.php:4
 msgid "group2_description"
 msgstr ""
 "Психологические консультации, юридические консультации по всем правовым "
 "вопросам и коучинг для ЛГБТК+ и их близких (очные и онлайн)"
 
 # Specialist consultations
-#: index.php:29 index.php:31
+#: dummy-stings.php:5
 msgid "group2_name"
 msgstr "Консультации специалистов"
 
 # Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
-#: index.php:44
+#: dummy-stings.php:6
 msgid "group3_description"
 msgstr ""
 "Мероприятия, обучающие курсы и регулярные тематические встречи по инициативе "
 "представителей сообщества (очные и онлайн)"
 
 # Interest clubs
-#: index.php:41 index.php:43
+#: dummy-stings.php:7
 msgid "group3_name"
 msgstr "Клубы по интересам"
 
 # Supervision, intervisor groups, training seminars and courses for psychologists and helping professionals working with the LGBTQ+ community (in-person and online)
-#: index.php:56
+#: dummy-stings.php:8
 msgid "group4_description"
 msgstr ""
 "Супервизия, интервизорские группы, обучающие семинары и курсы для психологов "
 "и помогающих специалистов, работающих с ЛГБТК+ сообществом (очные и онлайн)"
 
 # For specialists
-#: index.php:53 index.php:55
+#: dummy-stings.php:9
 msgid "group4_name"
 msgstr "Специалистам"
 
@@ -104,7 +114,11 @@ msgstr ""
 msgid "Initial theme for the Resource website"
 msgstr ""
 
-#: index.php:23 index.php:35 index.php:47 index.php:59
+#: header.php:13
+msgid "logo_alt_text"
+msgstr "Ресурс ЛГБТКИА+"
+
+#: index.php:25
 msgid "Read more"
 msgstr "Подробнее"
 
