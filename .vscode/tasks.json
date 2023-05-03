@@ -1,0 +1,62 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "label": "compose down",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "down": {}
+            }
+        },
+        {
+            "label": "compose up",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "up": {
+                    "detached": true,
+                    "services": ["db", "wp"]
+                }
+            }
+        },
+        {
+            "label": "db admin",
+            "type": "docker-compose",
+            "dockerCompose": {
+                "up": {
+                    "detached": true,
+                    "services": ["db", "dba"]
+                }
+            }
+        },
+        {
+            "label": "l10n: rm lang backups",
+            "type": "shell",
+            "linux": {
+                "command": "rm",
+                "args": ["*-backup-*"],
+                "options": {
+                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                }
+            }
+        },
+        {
+            "label": "l10n: generate .mo files",
+            "type": "shell",
+            "linux": {
+                "command": "for file in ./*.po; do msgfmt $file -o ${file/.po/.mo}; done",
+                "args": [],
+                "options": {
+                    "cwd": "${workspaceFolder}/wordpress/html/wp-content/themes/resource/languages/"
+                }
+            }
+        },
+        {
+            "label": "open wordpress",
+            "type": "shell",
+            "linux": {
+                "command": "google-chrome",
+                "args": ["http://localhost:80"]
+            }
+        }
+	]
+}
