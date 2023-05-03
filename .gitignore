@@ -8,49 +8,52 @@
 # Wordpress - ignore core, configuration, examples, uploads and logs.
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
+# Entire WordPress
+/wordpress/
+
 # Core
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wordpress/html/wp-admin/
-/wordpress/html/wp-content/db.php
-/wordpress/html/wp-content/index.php
-/wordpress/html/wp-content/languages
-/wordpress/html/wp-content/plugins/index.php
-/wordpress/html/wp-content/themes/index.php
-/wordpress/html/wp-includes/
-/wordpress/html/index.php
-/wordpress/html/license.txt
-/wordpress/html/readme.html
-/wordpress/html/wp-*.php
-/wordpress/html/xmlrpc.php
+# /wordpress/html/wp-admin/
+# /wordpress/html/wp-content/db.php
+# /wordpress/html/wp-content/index.php
+# /wordpress/html/wp-content/languages
+# /wordpress/html/wp-content/plugins/index.php
+# /wordpress/html/wp-content/themes/index.php
+# /wordpress/html/wp-includes/
+# /wordpress/html/index.php
+# /wordpress/html/license.txt
+# /wordpress/html/readme.html
+# /wordpress/html/wp-*.php
+# /wordpress/html/xmlrpc.php
 
 # Configuration
-wp-config.php
+# wp-config.php
 
 # Example themes
-/wordpress/html/wp-content/themes/twenty*/
+# /wordpress/html/wp-content/themes/twenty*/
 
 # Example plugin
-/wordpress/html/wp-content/plugins/hello.php
+# /wordpress/html/wp-content/plugins/hello.php
 
 # Upgrade
-/wordpress/html/wp-content/upgrade/
+# /wordpress/html/wp-content/upgrade/
 
 # Uploads
-/wordpress/html/wp-content/uploads/
+# /wordpress/html/wp-content/uploads/
 
 # Log files
-*.log
+# *.log
 
 # htaccess
-/wordpress/html/.htaccess
+# /wordpress/html/.htaccess
 
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-/wordpress/html/wp-content/plugins
+# /wordpress/html/wp-content/plugins
 
 # All themes
 #
