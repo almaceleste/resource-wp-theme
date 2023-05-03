@@ -23,10 +23,12 @@ msgstr ""
 msgid "/images/logo.png"
 msgstr ""
 
+# dummy-string. You don't have to translate this.
 #: index.php:22
 msgid "_description"
 msgstr ""
 
+# dummy-string. You don't have to translate this.
 #: index.php:19 index.php:21
 msgid "_name"
 msgstr ""
@@ -46,42 +48,42 @@ msgid "Footer_heading"
 msgstr ""
 
 # For representatives of the LGBTQ+ community, regular psychological support groups are held both in-person and online
-#: dummy-stings.php:2
+#: dummy-strings.php:2
 msgid "group1_description"
 msgstr ""
 
 # Support groups
-#: dummy-stings.php:3
+#: dummy-strings.php:3
 msgid "group1_name"
 msgstr ""
 
 # Psychological consultations, legal consultations on all legal issues and coaching for LGBTQ+ and their loved ones (in-person and online)
-#: dummy-stings.php:4
+#: dummy-strings.php:4
 msgid "group2_description"
 msgstr ""
 
 # Specialist consultations
-#: dummy-stings.php:5
+#: dummy-strings.php:5
 msgid "group2_name"
 msgstr ""
 
 # Events, training courses and regular thematic meetings initiated by community representatives (in-person and online)
-#: dummy-stings.php:6
+#: dummy-strings.php:6
 msgid "group3_description"
 msgstr ""
 
 # Interest clubs
-#: dummy-stings.php:7
+#: dummy-strings.php:7
 msgid "group3_name"
 msgstr ""
 
 # Supervision, intervisor groups, training seminars and courses for psychologists and helping professionals working with the LGBTQ+ community (in-person and online)
-#: dummy-stings.php:8
+#: dummy-strings.php:8
 msgid "group4_description"
 msgstr ""
 
 # For specialists
-#: dummy-stings.php:9
+#: dummy-strings.php:9
 msgid "group4_name"
 msgstr ""
 
