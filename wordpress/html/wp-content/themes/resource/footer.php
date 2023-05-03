@@ -5,8 +5,8 @@
                 the_custom_logo();
             }
         ?> -->
-        <a href="http://localhost/" class="custom-logo-link" rel="home" aria-current="page">
-            <img width="200" height="200" src="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.svg" class="custom-logo" alt="Resource LGBTQIA+" decoding="async" srcset="<?php echo esc_url( get_template_directory_uri() ) ?>/images/logo.svg" sizes="(max-width: 200px) 100vw, 200px">
+        <a href="<?php _e('root_url', 'resource') ?>" class="custom-logo-link" rel="home" aria-current="page">
+            <img width="70" height="70" src="<?php echo esc_url( get_template_directory_uri() ) ?><?php _e('/images/logo.png', 'resource') ?>" class="custom-logo" alt="<?php _e('logo_alt_text', 'resource') ?>">
         </a>
     </div>
     <pre class="wp-block-verse has-text-align-center"><?php _e('Footer_heading', 'resource') ?></pre>
