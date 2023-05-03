@@ -1,27 +1,32 @@
 services:
 
-  wordpress:
+  wp:
     image: wordpress
-    container_name: wp
     restart: always
     ports:
-      - 8080:80
+      - 80:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_NAME: wp
+      WORDPRESS_DB_NAME: wordpress
       WORDPRESS_DB_USER: user
       WORDPRESS_DB_PASSWORD: password
     volumes:
-      - ./wp/html:/var/www/html
+      - ./wordpress/html:/var/www/html
 
   db:
     image: mysql:5.7
-    container_name: db
     restart: always
     environment:
-      MYSQL_DATABASE: wp
+      MYSQL_DATABASE: wordpress
       MYSQL_USER:     user
       MYSQL_PASSWORD: password
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
-      - ./db/mysql:/var/lib/mysql
+      - ./mysql/db:/var/lib/mysql
+
+  dba:
+    image: adminer
+    depends_on:
+      - db
+    ports:
+      - 8080:8080
