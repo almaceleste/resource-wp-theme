@@ -2,6 +2,7 @@
     <span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span>
     <div class="wp-block-cover__inner-container">
         <div class="wp-block-group header-nav-block <?php if ( is_admin_bar_showing() ) { echo 'admin'; } ?>">
+            <?php get_template_part('languages') ?>
             <?php wp_nav_menu( array(
                 'theme_location'    => 'header_menu',
                 'container'         => false

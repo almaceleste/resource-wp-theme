@@ -129,4 +129,4 @@ msgstr ""
 #. site root url. Usually this is '/' but it can be different in other language, for example, '/ru' for russian or '/de' for german.
 #: header.php:12
 msgid "root_url"
-msgstr "/ru"
+msgstr ""

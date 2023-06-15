@@ -1,0 +1,44 @@
+#menu-item-languages {
+    cursor: pointer;
+    list-style-type: none;
+}
+#menu-item-languages a {
+    color: inherit;
+    text-decoration: none;
+}
+#menu-item-languages > .sub-menu {
+    display: none;
+    margin: 0;
+    padding-inline-start: 15px;
+    position: absolute;
+    z-index: 1;
+}
+#menu-item-languages:hover > .sub-menu {
+    display: block;
+}
+#menu-item-languages > .sub-menu li {
+    list-style-type: none;
+}
+.flag {
+    --downscale: 3.25;
+    display: inline-block;
+    position: relative;
+    width: 24px;
+    height: 12px;
+    background: url("/wp-content/themes/resource/images/flags.png")
+        no-repeat;
+    background-size: calc(1200px/var(--downscale));
+}
+.flag ~ .lsw-iso,
+.flag ~ .lsw-native {
+    display: none;
+}
+.flag.flag-de {
+    background-position: calc(-80px/var(--downscale)) calc(-40px/var(--downscale));
+}
+.flag.flag-en {
+    background-position: calc(-400px/var(--downscale)) calc(-480px/var(--downscale));
+}
+.flag.flag-ru {
+    background-position: calc(-640px/var(--downscale)) calc(-360px/var(--downscale));
+}
